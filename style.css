@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
+:root{
+    --Azul-claro: #175DFC;
+    --Azul-escuro: #00007B;
+    --Amarelo: #F2EF38;
+    --Rosa: #FF3EAB;
+    --Branco: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inika', serif;
+    color: var(--Branco);
+}
+
+body{
+    background-color: black;
+}
