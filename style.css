@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
 
+/*
+Fonte padrão: Inika
+
+-- Navbar: 30px (máx)
+-- Títulos das sections: 45px (máx)
+-- Parágrafos das sections: 25px (máx)
+-- Informações das sections: 20px (máx)
+*/
+
 :root{
     --Azul-claro: #175DFC;
     --Azul-escuro: #00007B;
@@ -49,4 +58,16 @@ nav{
 .nav-link:hover{
     color: var(--Amarelo);
     text-decoration: underline;
+}
+
+
+
+/* MAIN */
+#sec-first{
+    height: 524px;
+}
+
+img#img-ong{
+    width: 100%;
+    height: 100%;
 }
