@@ -63,6 +63,7 @@ nav{
 
 
 /* MAIN */
+/* Primeira section */
 #sec-first{
     height: 524px;
 }
@@ -70,4 +71,29 @@ nav{
 img#img-ong{
     width: 100%;
     height: 100%;
+}
+
+/* Segunda section */
+#sec-second{
+    height: 413px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Azul-claro);
+}
+
+#content-sec-second{
+    width: 1086px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+#content-sec-second > h1{
+    font-size: 45px;
+}
+
+#content-sec-second > p{
+    font-size: 25px;
 }
