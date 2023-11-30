@@ -101,7 +101,7 @@ img#img-ong{
 
 /* Terceira section */
 #sec-third{
-    height: 1180px;
+    height: 1100px;
 
     display: flex;
     justify-content: center;
@@ -160,4 +160,52 @@ p.acao-subtitulo{
 #sec-third-info > a:hover{
     color: var(--Link-hover);
     text-decoration: underline;
+}
+
+/* Quarta section */
+#sec-fourth{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Rosa);
+}
+
+
+#container-sec-fourth{
+    display: flex;
+    gap: 280px;
+}
+
+.content-sec-fourth{
+    width: 455px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subtitulo-sec-fourth{
+    font-size: 30px;
+    text-align: center;
+}
+
+.paragrafo-sec-fourth{
+    font-size: 25px;
+    text-align: center;
+}
+
+span.info-de-destaque, .info-insta{
+    color: var(--Amarelo);
+    
+}
+
+.info-insta:hover{
+    color: var(--Link-hover);
+    text-decoration: underline;
+}
+
+#linha-divisoria{
+    width: 3px;
+    height: 200px;
+    background-color: var(--Branco);
 }
