@@ -10,6 +10,7 @@ Fonte padrão: Inika
 */
 
 :root{
+    --Link-hover: #A9A9DE;
     --Azul-claro: #175DFC;
     --Azul-escuro: #00007B;
     --Amarelo: #F2EF38;
@@ -96,4 +97,67 @@ img#img-ong{
 
 #content-sec-second > p{
     font-size: 25px;
+}
+
+/* Terceira section */
+#sec-third{
+    height: 1047px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    background-color: var(--Azul-escuro);
+}
+
+#sec-third > h1{
+    font-size: 45px;
+}
+
+#todas-acoes{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.duo{
+    display: flex;
+    gap: 150px;
+}
+
+.acao-solo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p.acao-subtitulo{
+    font-size: 25px;
+    text-align: center;
+}
+
+.acao-imgs{
+    display: flex;
+    gap: 30px;
+}
+
+.img-da-acao{
+    width: 294px;
+    height: 330px;
+}
+
+#sec-third-info{
+    text-align: center;
+    font-size: 20px;
+}
+
+#sec-third-info{
+    font-weight: lighter;
+}
+
+#sec-third-info > a:hover{
+    color: var(--Link-hover);
+    text-decoration: underline;
 }
