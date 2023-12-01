@@ -104,12 +104,12 @@ img#img-ong{
 
 /* Terceira section */
 #sec-third{
-    height: 1100px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     background-color: var(--Azul-escuro);
 }
 
@@ -125,6 +125,7 @@ img#img-ong{
 
 .duo{
     display: flex;
+    justify-content: center;
     gap: 80px;
 }
 
@@ -145,8 +146,8 @@ p.acao-subtitulo{
 }
 
 .img-da-acao{
-    width: 294px;
-    height: 330px;
+    width: 200px;
+    height: 250px;
 }
 
 #sec-third-info{
