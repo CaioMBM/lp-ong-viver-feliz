@@ -27,6 +27,10 @@ Fonte padrão: Inika
     color: var(--Branco);
 }
 
+h1{
+    letter-spacing: 2px;
+}
+
 body{
     background-color: rgb(99, 99, 99);
 }
