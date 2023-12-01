@@ -101,13 +101,11 @@ img#img-ong{
 /* Terceira section */
 #sec-third{
     height: 1100px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 50px;
-
     background-color: var(--Azul-escuro);
 }
 
@@ -123,7 +121,7 @@ img#img-ong{
 
 .duo{
     display: flex;
-    gap: 150px;
+    gap: 80px;
 }
 
 .acao-solo{
