@@ -161,7 +161,7 @@ p.acao-subtitulo{
 
 /* Quarta section */
 #sec-fourth{
-    height: 450px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,7 +171,7 @@ p.acao-subtitulo{
 
 #container-sec-fourth{
     display: flex;
-    gap: 280px;
+    gap: 100px;
 }
 
 .content-sec-fourth{
@@ -179,6 +179,10 @@ p.acao-subtitulo{
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+#como-ajudar{
+    width: 400px;
 }
 
 .subtitulo-sec-fourth{
@@ -203,6 +207,6 @@ span.info-de-destaque, .info-insta{
 
 #linha-divisoria{
     width: 3px;
-    height: 200px;
+    border-radius: 2px;
     background-color: var(--Branco);
 }
