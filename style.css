@@ -245,3 +245,66 @@ iframe{
 #sec-fifth-info{
     font-size: 20px;
 }
+
+
+
+/* FOOTER */
+#footer{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Preto);
+}
+
+#container-footer{
+    display: flex;
+    gap: 300px;
+}
+
+#box-representantes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+#img-representantes{
+    width: 325px;
+    height: 335px;
+    object-fit: cover;
+}
+
+#contato-duo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contato-solo{
+    text-align: center;
+}
+
+.titulos-footer{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.info-redes-e-telefone{
+    display: flex;
+    align-items: center;
+}
+
+.p-footer{
+    font-size: 20px;
+}
+
+.span-footer{
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.rede-social-link:hover{
+    color: var(--Link-hover);
+    text-decoration: underline;
+}
