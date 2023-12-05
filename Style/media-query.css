@@ -1,0 +1,5 @@
+@media screen and (max-width: 390px) {}
+@media only screen and (min-width: 390px) and (max-width: 459px) {}
+@media only screen and (min-width: 459px) and (max-width: 599px) {}
+@media only screen and (min-width: 599px) and (max-width: 767px) {}
+@media only screen and (min-width: 767px) and (max-width: 992px) {}
