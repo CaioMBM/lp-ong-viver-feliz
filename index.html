@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Style/media-queries/header.css">
     <link rel="stylesheet" href="Style/media-queries/main.css">
+    <link rel="stylesheet" href="Style/aos.css">
     <link rel="stylesheet" href="Style/media-queries/footer.css">
 </head>
 <body>
-    <!-- <header>
+     <header>
         <img src="img/logo-ong.png" alt="Logo da ONG Viver Feliz" id="logo">
 
         <nav>
@@ -20,25 +21,23 @@
             <a href="#" class="nav-link">Voluntariar</a>
             <a href="#" class="nav-link">Localização</a>
         </nav>
-    </header> -->
-
-
+    </header> 
     <main> 
         <section id="sec-first">
             <img src="img/wallpaper-horizontal.jpg" alt="Imagem da ONG" id="img-ong">
         </section>
 
-        <section id="sec-second">
-            <div id="content-sec-second">
-                <h1>SOBRE</h1>
+        <section id="sec-second" >
+            <div id="content-sec-second" data-aos="fade-right">
+                <h1>SOBRE</h1 >
                 <p>A ONG Viver Feliz tem como objetivo ajudar no desenvolvimento e crescimento de crianças e adolescentes carentes, junto aos seus familiares. Prestam serviços de reforço escolar para as crianças, doações de cestas básicas, roupas e calçados, além de cursos profissionalizantes.</p>
             </div>
         </section>
         
-        <section id="sec-third">
+        <section id="sec-third" >
             <h1>AÇÕES QUE JÁ FIZEMOS</h1>
 
-            <div id="todas-acoes"> 
+            <div id="todas-acoes" data-aos="fade-right"> 
                 <div class="duo">
                     <div class="acao-solo">
                         <p class="acao-subtitulo">Exemplo 1</p>
@@ -113,7 +112,7 @@
     <footer>
         <section id="footer">
             <div id="container-footer">
-                <div id="box-representantes">
+                <div id="box-representantes" data-aos="fade-right">
                     <h1 class="titulos-footer">REPRESENTATES</h1>
 
                     <img src="img/duas-pessoas.jpg" alt="Foto dos representantes" id="img-representantes">
@@ -150,6 +149,12 @@
             </div>
         </section>
     </footer>
-
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      }
+      );
+    </script>
 </body>
 </html>
