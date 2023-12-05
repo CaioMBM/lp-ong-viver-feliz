@@ -259,7 +259,7 @@ iframe{
 
 #container-footer{
     display: flex;
-    gap: 300px;
+    gap: 200px;
 }
 
 #box-representantes{
@@ -273,6 +273,7 @@ iframe{
     width: 325px;
     height: 335px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 #contato-duo{
