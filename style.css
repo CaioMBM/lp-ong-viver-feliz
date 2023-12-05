@@ -120,6 +120,7 @@ img#img-ong{
 #todas-acoes{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 40px;
 }
 
@@ -150,13 +151,10 @@ p.acao-subtitulo{
     height: 250px;
 }
 
-#sec-third-info{
+p#sec-third-info{
+    font-weight: lighter;
     text-align: center;
     font-size: 20px;
-}
-
-#sec-third-info{
-    font-weight: lighter;
 }
 
 #sec-third-info > a:hover{

@@ -21,6 +21,46 @@
     #content-sec-second > p{
         font-size: 15px;
     }
+
+    /* Terceira section */
+    #sec-third{
+        height: auto;
+        padding: 40px 5px 50px 5px;
+        gap: 20px;
+    }
+
+    #sec-third > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #todas-acoes{
+        gap: 30px;
+    }
+
+    .duo{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    p.acao-subtitulo{
+        font-size: 15px;
+    }
+
+    .acao-imgs{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img-da-acao{
+        width: 130px;
+        height: 200px;
+    }
+
+    p#sec-third-info{
+        width: 280px;
+        font-size: 13px;
+    }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 459px) {
@@ -45,6 +85,46 @@
 
     #content-sec-second > p{
         font-size: 15px;
+    }
+
+    /* Terceira section */
+    #sec-third{
+        height: auto;
+        padding: 40px 15px 50px 15px;
+        gap: 20px;
+    }
+
+    #sec-third > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #todas-acoes{
+        gap: 30px;
+    }
+
+    .duo{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    p.acao-subtitulo{
+        font-size: 15px;
+    }
+
+    .acao-imgs{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img-da-acao{
+        width: 150px;
+        height: 210px;
+    }
+
+    p#sec-third-info{
+        width: 280px;
+        font-size: 13px;
     }
 }
 
@@ -71,6 +151,46 @@
     #content-sec-second > p{
         font-size: 20px;
     }
+
+    /* Terceira section */
+    #sec-third{
+        height: auto;
+        padding: 40px 10px 50px 10px;
+        gap: 20px;
+    }
+
+    #sec-third > h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #todas-acoes{
+        gap: 30px;
+    }
+
+    .duo{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    p.acao-subtitulo{
+        font-size: 20px;
+    }
+
+    .acao-imgs{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img-da-acao{
+        width: 170px;
+        height: 230px;
+    }
+
+    p#sec-third-info{
+        width: 280px;
+        font-size: 15px;
+    }
 }
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
@@ -96,6 +216,46 @@
     #content-sec-second > p{
         font-size: 20px;
     }
+
+    /* Terceira section */
+    #sec-third{
+        height: auto;
+        padding: 40px 10px 50px 10px;
+        gap: 20px;
+    }
+
+    #sec-third > h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #todas-acoes{
+        gap: 30px;
+    }
+
+    .duo{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    p.acao-subtitulo{
+        font-size: 20px;
+    }
+
+    .acao-imgs{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img-da-acao{
+        width: 170px;
+        height: 230px;
+    }
+
+    p#sec-third-info{
+        width: 280px;
+        font-size: 15px;
+    }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 992px) {
@@ -112,6 +272,45 @@
 
     #content-sec-second > h1{
         font-size: 40px;
+    }
+
+    /* Terceira section */
+    #sec-third{
+        height: auto;
+        padding: 40px 10px 50px 10px;
+        gap: 20px;
+    }
+
+    #sec-third > h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #todas-acoes{
+        gap: 30px;
+    }
+
+    .duo{
+        gap: 40px;
+    }
+
+    p.acao-subtitulo{
+        font-size: 25px;
+    }
+
+    .acao-imgs{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img-da-acao{
+        width: 150px;
+        height: 230px;
+    }
+
+    p#sec-third-info{
+        width: 580px;
+        font-size: 15px;
     }
 }
 
