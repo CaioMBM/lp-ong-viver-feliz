@@ -171,21 +171,20 @@ p#sec-third-info{
     background-color: var(--Rosa);
 }
 
-
 #container-sec-fourth{
     display: flex;
     gap: 100px;
 }
 
 .content-sec-fourth{
-    width: 455px;
+    width: 490px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-#como-ajudar{
-    width: 400px;
+#como-voluntariar{
+    width: 400px; /* Foi criado esse id porque estava ficando com um impressão de uma caixa maior que a outra porque uma o conteundo ocupava toda a caixa enquanto a outra quase toda. */
 }
 
 .subtitulo-sec-fourth{
@@ -193,7 +192,7 @@ p#sec-third-info{
     text-align: center;
 }
 
-.paragrafo-sec-fourth{
+p.paragrafo-sec-fourth{
     font-size: 25px;
     text-align: center;
 }
